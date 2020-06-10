@@ -53,7 +53,7 @@ def extract(text):
 def eat_pfd():
     pdf_data = request.args.get('pdf')
     # pdf_data.replace('\n','+')
-    with open("fucking_base64.txt" , 'w') as fd:
+    with open("output/fucking_base64.txt" , 'w') as fd:
         fd.write(pdf_data)
     my_pdf = base64.b64decode(pdf_data)
     return json.dumps(extract(my_pdf), ensure_ascii=False)
