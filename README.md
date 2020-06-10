@@ -20,7 +20,7 @@ scr/server/server_eat_pdf.py 是曾一凡写的服务端程序（有严重bug）
 
 虽然说需求的功能已经实现了，但是需要打包成EXE（吃饱了撑着）。而打包的过程会报错，报错内容见下图
 
-![image](https://github.com/JLUZHAnalytica/TASK-6.10-PDF_Extract/img/1591770669.jpg)
+![image](https://github.com/JLUZHAnalytica/TASK-6.10-PDF_Extract/blob/master/img/1591770669.jpg?raw=true)
 
 所以，余强老师让我们写一个，Web版本的。这个我经过尝试发现了很多问题，不比解决打包的库问题容易。
 
